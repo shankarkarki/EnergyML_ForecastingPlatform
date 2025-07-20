@@ -35,34 +35,6 @@ EnergyML_Forecasting is a market-agnostic energy forecasting platform designed t
 - **Deployment:** Railway/Render
 - **Frontend:** Streamlit/React
 
-## 📅 3-Week MVP Roadmap
-
-### Week 1: Data Foundation (Current)
-- [x] Project setup and architecture design
-- [ ] GridStatus API integration for ERCOT
-- [ ] Historical data collection pipeline
-- [ ] Data quality validation framework
-- [ ] Basic time series analysis
-
-**Goal:** Solid data pipeline with ERCOT historical and real-time data
-
-### Week 2: ML Pipeline
-- [ ] Feature engineering framework
-- [ ] Multiple forecasting models (ARIMA, Random Forest, XGBoost)
-- [ ] Model evaluation and comparison
-- [ ] REST API development
-- [ ] Real-time prediction pipeline
-
-**Goal:** Production-ready ML pipeline with API endpoints
-
-### Week 3: Platform Polish
-- [ ] Web dashboard development
-- [ ] Live prediction visualization
-- [ ] Model performance monitoring
-- [ ] Documentation and demo preparation
-- [ ] Cloud deployment
-
-**Goal:** Complete platform ready for demonstration
 
 ## 🎯 MVP Success Criteria
 
@@ -127,23 +99,6 @@ current_data = data_manager.get_latest_prices()
 forecaster = UniversalForecaster()
 predictions = forecaster.predict_24h(current_data)
 ```
-
-## 📈 Current Progress
-
-**Week 1, Day 1:**
-- [x] Repository setup
-- [x] README documentation
-- [ ] GridStatus API integration
-- [ ] First data pull from ERCOT
-
-## 🎯 Why This Matters
-
-Energy markets are becoming increasingly complex with renewable integration, requiring sophisticated forecasting tools. This platform demonstrates:
-
-- **Real-world application** of ML to energy markets
-- **Production engineering** skills beyond data science
-- **Scalable architecture** thinking
-- **Industry-relevant** problem solving
 
 ## 📚 Resources
 
