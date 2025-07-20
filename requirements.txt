@@ -7,6 +7,7 @@ distro==1.9.0
 dotenv==0.9.9
 et_xmlfile==2.0.0
 gridstatus==0.29.1
+holidays==0.39
 idna==3.10
 iniconfig==2.1.0
 joblib==1.5.1
@@ -24,8 +25,20 @@ python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 pytz==2025.2
 requests==2.32.4
+# Machine Learning and Statistics
 scikit-learn==1.7.1
 scipy==1.16.0
+statsmodels==0.14.4
+xgboost==2.1.3
+
+# Deep Learning
+torch==2.5.1
+torchvision==0.20.1
+
+# Foundation Models (optional - install as needed)
+# timesfm  # Google's TimesFM - install from source
+# chronos-forecasting  # Amazon's Chronos
+# uni2ts  # Salesforce's Moirai
 setuptools==70.3.0
 six==1.17.0
 soupsieve==2.7
