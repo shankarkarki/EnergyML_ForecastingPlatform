@@ -1,5 +1,5 @@
 # EnergyML_ForecastingPlatform
-
+[![CI](https://github.com/shankarkarki/EnergyML_ForecastingPlatform/main/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/yourrepo/actions/workflows/ci.yml)
 > Universal energy forecasting platform that works with any electricity market worldwide
 
 ## 🎯 Project Overview
