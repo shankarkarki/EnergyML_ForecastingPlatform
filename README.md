@@ -4,7 +4,7 @@
 
 ## 🎯 Project Overview
 
-EnergyML_Forecasting is a market-agnostic energy forecasting platform designed to predict electricity prices across different regional markets. Built with production-grade architecture, the platform can adapt to any electricity market structure (US ISOs, European markets, Asian markets) with minimal configuration changes.
+EnergyML_Forecasting is a market-agnostic energy forecasting platform designed to predict electricity ( load in first phase and prices in second phase ) across different regional markets. Built with production-grade architecture, the platform can adapt to any electricity market structure (US ISOs, European markets, Asian markets) with minimal configuration changes.
 
 **Current Focus:** ERCOT (Texas) market as the first implementation
 **Future Scope:** CAISO, PJM, NYISO, European markets
