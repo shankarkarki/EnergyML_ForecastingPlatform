@@ -1,6 +1,11 @@
+# Kiro development files (PRIVATE - design docs, specs, tasks)
+.kiro/
+
 # Environment variables
 .env
 *.env
+.env.local
+.env.*.local
 
 # Python
 __pycache__/
@@ -13,19 +18,66 @@ venv/
 .venv/
 pip-log.txt
 pip-delete-this-directory.txt
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
 
 # IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+*.sublime-project
+*.sublime-workspace
 
-# Data files
+# Data files (protect any real data)
 *.csv
-*.json
+*.parquet
+*.pkl
+*.pickle
 data/
 logs/
+backups/
+
+# API keys and secrets
+secrets/
+keys/
+credentials/
 
 # OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
